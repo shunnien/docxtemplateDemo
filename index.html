@@ -39,7 +39,11 @@
                 let objData = {
                     "title": "大標題",
                     "subtitle": "子標題",
-                    "desc": "隨便的內容描述"
+                    "desc": "隨便的內容描述",
+                    "header1": "表格標題",
+                    "header2": "第二列",
+                    "cell1": "你好",
+                    "cell2": "word 文件"
                 };
                 let zip = new JSZip(content);
                 let doc = new Docxtemplater().loadZip(zip)
@@ -52,8 +56,6 @@
             });
         });
     };
-
-    </script>
     </script>
 </body>
 
